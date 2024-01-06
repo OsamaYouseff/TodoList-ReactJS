@@ -1,0 +1,95 @@
+label,
+input {
+    color: #eee !important;
+}
+
+.card {
+    height: 90%;
+    min-height: 85vh;
+    border-radius: 10px !important;
+    box-shadow: 0 0 10px #000;
+    width: 100% !important;
+    background-color: #2a2b2f !important;
+    border: 1px solid #777;
+    margin-bottom: 20px;
+}
+
+.icon-btn {
+    transition: 0.3s ease-in-out !important;
+}
+
+.icon-btn:hover {
+    opacity: 0.8;
+    box-shadow: " 0px 0px 0px transparent !important";
+}
+
+.task-card {
+    height: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    flex-direction: column;
+    transition: 0.2s linear !important;
+    padding: 15px !important;
+    /* box-shadow: 0px 0px 5px transparent !important; */
+}
+
+/* .task-card:hover {
+    box-shadow: 0px 0px 5px #000 !important;
+} */
+
+.Tasks-container {
+    max-height: 80%;
+    overflow-y: auto;
+    margin-top: 15px;
+    height: 80%;
+    display: grid;
+    background: transparent !important;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 10px;
+}
+
+.icons-container {
+    width: 100%;
+    text-align: center !important;
+    display: flex;
+    height: 105px;
+    gap: 20px;
+}
+
+.text-container {
+    width: 100%;
+    text-align: center !important;
+    height: 105px;
+}
+
+.task-input {
+    color: white !important;
+}
+
+/* overriding material ui css */
+
+.css-1b54d43-MuiFormLabel-root-MuiInputLabel-root {
+    color: #d6d6d6 !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-color: #777 !important;
+}
+
+.css-1b54d43-MuiFormLabel-root-MuiInputLabel-root {
+    color: #eee !important;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    background-color: transparent !important;
+}
+
+.css-1oy3rw8-MuiFormLabel-root-MuiInputLabel-root {
+    color: #636a6a !important;
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+    color: #4caf50 !important;
+}
